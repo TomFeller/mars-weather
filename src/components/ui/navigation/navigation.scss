@@ -1,0 +1,22 @@
+.navigation {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px 5px;
+  margin-left: auto;
+}
+.navigation-item {
+  widtH: 33px;
+  height: 33px;
+  border-radius: 5px;
+  border: 1px solid #8d6338;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 5px;
+  color:#8d6338;
+  &.active {
+    background-color: #8d6338;
+    color:#fff
+  }
+}
